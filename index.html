@@ -6,6 +6,11 @@
     <title>SpectralGrid - Data Science & AI Research</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<!-- Academicons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.2/css/academicons.min.css">
+	
     <style>
         :root {
             --primary: #FF6B00;
@@ -237,7 +242,25 @@
             opacity: 1;
         }
 
+		/* Image setup */
+		.image-container {
+		display: flex;
+		justify-content: center; /* Centraliza horizontalmente */
+		align-items: center;     /* Centraliza verticalmente */
+		margin: 20px 0;          /* Espaçamento externo */
+		min-height: 100vh;       /* Altura mínima da viewport (opcional) */
+		}
 
+		.responsive-image {
+		text-align: center;      /* Centraliza conteúdo inline (como figcaption) */
+		max-width: 100%;         /* Garante responsividade */
+		}
+
+		.image-content {
+		margin: 0 auto;          /* Centraliza a imagem dentro do container */
+		display: block;          /* Remove espaços indesejados abaixo da imagem */
+		}
+		
 
         /* Research Approach Section */
         .research-approach {
@@ -1898,18 +1921,17 @@
 						<span class="project-tag">CNN</span>
                     </div>
                 </div>
-            </div>
 			
-			<div class="image-container">
-				<figure class="responsive-image">
-					<img 
-					src="https://github.com/spectralgrid/spectralgrid.github.io/blob/main/img/data.png" 
-					loading="lazy"
-					width="800"
-					height="450"
-					class="image-content"
-					>
-				</figure>
+				<div class="image-container">
+					<figure class="responsive-image">
+						<img src="https://spectralgrid.github.io/img/data.png" 
+						loading="lazy"
+						width="1167"
+						height="455"
+						class="image-content"
+						>
+					</figure>
+				</div>
 			</div>
         </div>
     </section>
@@ -1920,31 +1942,94 @@
                 <h2>Nosso Team</h2>
 				<p>Contamos com um time de especialistas nas áreas de Sustentabilidade, ESG, Políticas Públicas, além de soluções inovadoras em Data Science e Inteligência Artificial.</p>
             </div>
+			
 			<div class="three-column-layout">
                 <!-- Coluna 1 - TEMA 1 -->
-                <div class="column fade-in delay-1">
+				<div class="column fade-in delay-1">
 					<div class="member-info">
-                        <h3>Dr. Omar Usuriaga Najera</h3>
-                        <p>Diretor Spectralgrid</p>
-						
-                        <div class="member-social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-github"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
+						<h3>Dr. Omar Usuriaga Najera</h3>
+						<p>Diretor Spectralgrid</p>
+        
+						<div class="member-social">
+							<!-- LinkedIn -->
+							<a href="https://www.linkedin.com/in/omar-usuriaga-najera-86177a64/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+								<i class="fab fa-linkedin"></i>
+							</a>
+            
+							<!-- ORCID -->
+							<a href="https://orcid.org/0000-0002-6182-1609" target="_blank" rel="noopener noreferrer" title="ORCID">
+								<i class="fab fa-orcid"></i>
+							</a>
+            
+							<!-- Lattes -->
+							<a href="http://lattes.cnpq.br/0400817974525585" target="_blank" rel="noopener noreferrer" title="Currículo Lattes">
+								<i class="ai ai-lattes"></i>
+							</a>
+            
+							<!-- Google Scholar -->
+							<a href="https://scholar.google.com/citations?user=VDKTPw4AAAAJ&hl" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+								<i class="ai ai-google-scholar"></i>
+							</a>
+            
+							<!-- Scopus -->
+							<a href="https://www.scopus.com/authid/detail.uri?authorId=7801582118" target="_blank" rel="noopener noreferrer" title="Scopus">
+								<i class="ai ai-scopus"></i>
+							</a>
+            
+							<!-- ResearcherID -->
+							<a href="https://www.webofscience.com/wos/author/record/G-9771-2016" target="_blank" rel="noopener noreferrer" title="ResearcherID">
+								<i class="ai ai-researcherid"></i>
+							</a>
+            
+							<!-- Email -->
+							<a href="mailto:omar.usuriaga@gmail.com" title="Email">
+								<i class="fas fa-envelope"></i>
+							</a>
+						</div>
+					</div>
+
 					<br>
 					<div class="member-info">
-                        <h3>Dr. Lira Luz Benites Lazaro</h3>
+						<h3>Dra. Lira Luz Benites Lazaro</h3>
                         <p>Chief Scientist: Sustentabilidade e Transição Energética</p>
-						
-                        <div class="member-social">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
-                            <a href="#"><i class="fab fa-github"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
-                    </div>
+        
+						<div class="member-social">
+							<!-- LinkedIn -->
+							            
+							<!-- ORCID -->
+							<a href="http://orcid.org/0000-0001-6587-1497" target="_blank" rel="noopener noreferrer" title="ORCID">
+								<i class="fab fa-orcid"></i>
+							</a>
+            
+							<!-- Lattes -->
+							<a href="http://lattes.cnpq.br/9163414505632771" target="_blank" rel="noopener noreferrer" title="Currículo Lattes">
+								<i class="ai ai-lattes"></i>
+							</a>
+            
+							<!-- Google Scholar -->
+							<a href="https://scholar.google.com.br/citations?user=EWlxI-YAAAAJ" target="_blank" rel="noopener noreferrer" title="Google Scholar">
+								<i class="ai ai-google-scholar"></i>
+							</a>
+            
+							<!-- Scopus -->
+							<a href="https://www.scopus.com/authid/detail.uri?authorId=57193682708" target="_blank" rel="noopener noreferrer" title="Scopus">
+								<i class="ai ai-scopus"></i>
+							</a>
+            
+							<!-- ResearcherID -->
+							<a href="https://www.webofscience.com/wos/author/record/M-8642-2017" target="_blank" rel="noopener noreferrer" title="ResearcherID">
+								<i class="ai ai-researcherid"></i>
+							</a>
+            
+							<!-- Email -->
+							<a href="mailto:lbenites@usp.br" title="Email">
+								<i class="fas fa-envelope"></i>
+							</a>
+						</div>
+					</div>
+
 				</div>
+			
                 
                 <!-- Coluna do meio - LOGO -->
                 <div class="middle-column fade-in delay-2">
